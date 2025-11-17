@@ -1,0 +1,23 @@
+# Minimal dependencies for using Galena-2B model
+# For training dependencies, see parent GRANITE repository
+
+# Core dependencies
+torch>=2.0.0
+transformers>=4.44.0
+huggingface_hub>=0.25.0
+
+# Optional: GPU acceleration (CUDA)
+# Uncomment if using NVIDIA GPU:
+# accelerate>=0.33.0
+
+# Optional: Quantization support
+# Uncomment for 4-bit/8-bit quantization:
+# bitsandbytes>=0.43.1
+
+# Optional: vLLM for high-performance inference
+# Uncomment for production serving:
+# vllm>=0.5.3
+
+# Optional: For running examples
+# sentencepiece>=0.1.99
+# protobuf>=3.20.0

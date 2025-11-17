@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite it as below."
+type: software
+title: "Galena-2B: Granite 3.3 Math & Physics Model"
+abstract: "A specialized 2-billion parameter language model fine-tuned on advanced mathematics and physics datasets, derived from IBM Granite 3.3-2B Instruct."
+authors:
+  - family-names: "Your Last Name"
+    given-names: "Your First Name"
+    email: your.email@example.com
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+version: 1.0.0
+date-released: 2024-11-17
+license: Apache-2.0
+repository-code: "https://github.com/yourusername/galena-2B"
+keywords:
+  - machine-learning
+  - natural-language-processing
+  - language-model
+  - mathematics
+  - physics
+  - granite
+  - fine-tuning
+  - lora
+  - education
+references:
+  - type: software
+    title: "Granite 3.3: IBM's Open Foundation Models"
+    authors:
+      - name: "IBM Research"
+    year: 2024
+    url: "https://www.ibm.com/granite"
+  - type: dataset
+    title: "Nemotron-RL-Math: Advanced Calculations Dataset"
+    authors:
+      - name: "NVIDIA"
+    url: "https://huggingface.co/datasets/nvidia/Nemotron-RL-math-advanced_calculations"
+  - type: dataset
+    title: "CAMEL Physics Dataset"
+    authors:
+      - name: "CAMEL-AI"
+    url: "https://huggingface.co/datasets/camel-ai/physics"
