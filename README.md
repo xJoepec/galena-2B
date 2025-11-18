@@ -21,6 +21,10 @@ model-index:
 
 # Galena-2B: Granite 3.3 Math & Physics Model
 
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Transformers](https://img.shields.io/badge/🤗-transformers-orange.svg)
+
 A specialized 2B parameter language model fine-tuned on advanced mathematics and physics datasets. Built on IBM's [Granite 3.3-2B Instruct](https://huggingface.co/ibm-granite/granite-3.3-2b-instruct) base model with LoRA fine-tuning on 26k instruction-response pairs covering advanced calculations and physics concepts.
 
 ## Download Model Artifacts
