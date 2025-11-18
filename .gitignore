@@ -131,3 +131,9 @@ models/math-physics/hf/*
 !models/math-physics/hf/README.md
 models/math-physics/gguf/*
 !models/math-physics/gguf/README.md
+
+# Upload logs and temporary files
+upload_log.txt
+
+# Local IDE settings
+.claude/settings.local.json

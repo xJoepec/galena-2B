@@ -49,7 +49,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--repo-id",
-        default="xJoepec/galena-2b-math-physics",
+        default="xJoePec/galena-2b-math-physics",
         help="Hugging Face repo id that hosts the snapshot.",
     )
     parser.add_argument(

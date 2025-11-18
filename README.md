@@ -1,3 +1,24 @@
+---
+language:
+- en
+license: apache-2.0
+library_name: transformers
+tags:
+- text-generation
+- granite
+- math
+- physics
+- qlora
+- ibm
+base_model: ibm-granite/granite-3.3-2b-instruct
+datasets:
+- nvidia/Nemotron-RL-math-advanced_calculations
+- camel-ai/physics
+model-index:
+- name: Galena-2B
+  results: []
+---
+
 # Galena-2B: Granite 3.3 Math & Physics Model
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
