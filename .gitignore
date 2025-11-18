@@ -136,4 +136,4 @@ models/math-physics/gguf/*
 upload_log.txt
 
 # Local IDE settings
-.claude/settings.local.json
+.claude/
